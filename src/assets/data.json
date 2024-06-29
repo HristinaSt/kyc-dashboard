@@ -1,0 +1,75 @@
+{
+  "chartData": [
+    { "status": "Approved", "count": 11 },
+    { "status": "Rejected", "count": 1 },
+    { "status": "Cancelled", "count": 1 },
+    { "status": "Ready For Review", "count": 10 },
+    { "status": "In Progress", "count": 54 }
+  ],
+  "tableData": [
+    {
+      "created": "May 15, 2024 14:12:27",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "sdfgh@dsadas.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    },
+    {
+      "created": "May 15, 2024 14:02:06",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "dsadas@dsadas.com",
+      "type": "aiscan2",
+      "riskScore": "Not calculated",
+      "status": "Customer Processing"
+    },
+    {
+      "created": "May 03, 2024 08:57:14",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "fasfas@dsadas.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    },
+    {
+      "created": "May 03, 2024 08:35:55",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "sfasfas@fasfa.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    },
+    {
+      "created": "May 03, 2024 08:23:24",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "dsada@fdsfas.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    },
+    {
+      "created": "May 01, 2024 10:45:58",
+      "name": "ssdjgh",
+      "email": "dsafg@fasfa.com",
+      "type": "aiscan2",
+      "riskScore": "Not calculated",
+      "status": "User Accepted KYC Invitation"
+    },
+    {
+      "created": "Mar 22, 2024 09:57:47",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "dasgase@sdada.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    },
+    {
+      "created": "Mar 22, 2024 09:53:16",
+      "name": "KÁROLY-EDWARD RÁCZ",
+      "email": "dafasf@dsada.com",
+      "type": "aiscan2",
+      "riskScore": "LOW",
+      "status": "Approved"
+    }
+  ]
+}

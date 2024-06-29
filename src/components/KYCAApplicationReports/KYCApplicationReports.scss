@@ -1,0 +1,168 @@
+.dashboard-container {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border-bottom: 1px solid #f1eeee;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  border-top: 1px solid #f1eeee;
+  font-weight: 400;
+}
+
+td.created,
+td.details,
+td.status,
+td.risk {
+  text-align: center;
+}
+
+td.created {
+  width: 20%;
+  text-align: left;
+}
+
+td.name,
+td.email {
+  width: 25%;
+}
+
+td.type {
+  width: 15%;
+}
+
+td.risk {
+  width: 10%;
+}
+
+td.status {
+  width: 10%;
+}
+
+td.details {
+  width: 5%;
+}
+
+.hours {
+  color: grey;
+  font-size: 0.9em;
+}
+
+.email {
+  color: grey;
+  font-size: 0.9em;
+}
+
+.risk-low .risk-icon {
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.risk-low .risk-text {
+  color: #b2d235;
+}
+
+.status-icon {
+  margin-right: 5px;
+}
+
+.custom-icon-svg {
+  width: 1em;
+  height: 1em;
+}
+
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+td.details {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.pie-chart {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .pie-chart {
+    max-width: 300px;
+  }
+
+  th,
+  td {
+    padding: 4px;
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pie-chart {
+    max-width: 200px;
+  }
+
+  th,
+  td {
+    padding: 2px;
+    font-size: 0.8em;
+  }
+
+  th {
+    font-size: 0.9em;
+  }
+
+  td.created {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  td.name,
+  td.email,
+  td.type,
+  td.risk,
+  td.status,
+  td.details {
+    width: auto;
+    white-space: nowrap;
+  }
+
+  .table-container {
+    overflow-x: auto;
+  }
+}
